@@ -1,0 +1,12 @@
+Note sur la lecture des dossiers :
+
+	contre indication vis à vis du rapport, make check génère 6 dossiers :
+		- ArchiAvecFork : dossier archive avec -p
+		- ArchiSansFork : dossier archive sans -p
+		- RestoreAvecForkAAF : dossier de restauration avec -p d'une archive multiple
+		- RestoreAvecForkASF : dossier de restauration avec -p d'une archive unique
+		- RestoreSansForkAAF : dossier de restauration sans -p d'une archive multiple
+		- RestoreSansForkASF : dossier de restauration sans -p d'une archive unique
+
+
+Pour tester les autres options [ -i ] [ -d ] et [ -z ] il faut écrire manuellement la commande.
